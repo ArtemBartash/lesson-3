@@ -22,7 +22,7 @@ h1 {
     font-size: 36px;
     text-transform: uppercase;
 }
-
+/* Отдельный класс для линий с обшими настройками */
 .line {
     width: 64px;
     height: 2px;
@@ -46,7 +46,7 @@ main {
     padding: 40px 0 102px;
     font-size: 0;
 }
-
+/*отдельный класс с настройками для колонок */
 .col {
     display: inline-block;
     width: 350px;
@@ -78,20 +78,19 @@ h2 {
 .circle--lightning {
     background: url(../img/lightning.png) no-repeat center center;
 }
-
+/*Картинка города */
 .background-town {
     width: 1519px;
     height: 325px;
     background: url(../img/town.png) no-repeat center center;
-    background-color: rgb(0, 0, 0, 0.4);
 }
-
+/*Затемнение картники города */
 .mask {
     width: 1519px;
     height: 325px;
     background-color: rgb(0, 0, 0, 0.5);
 }
-
+/*Заголовок*/
 .caption {
     padding: 65px 0 0;
     background: transparent;
@@ -101,6 +100,7 @@ h2 {
     text-transform: uppercase;
     color: white;
 }
+
 .line--white {
     width: 74px;
     background:white;
@@ -116,7 +116,7 @@ p {
     color: #86878B;
     
 }
-
+/*кнопка скачать*/
 button {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
@@ -127,25 +127,25 @@ button {
     font-size: 15px;
     color: white;
 }
-
+/*Анимация кнопки*/
 button:hover {
 	background: white;
 	color: black;
 }
-
+/*Черный прямоугольник под картинкой*/
 .black-rectangle {
     font-size: 0;
     width: 1519px;
     height: 128px;
     background-color: rgb(0, 0, 0);
 }
-
+/*Отдельный класс с настройками для картинок соц. сетей*/
 .society {
     margin: 39px 11px;
     width: 24px;
     height: 24px;
 }
-
+/*Мучения с картинками*/
 .society--facebook {
     margin: 38px 5px 42px;
 }
@@ -161,7 +161,7 @@ button:hover {
     width: 35px;
     height: 35px;
 }
-
+/*Надпись с юникодом*/
 .axure {
     background: black;
     font-size: 12px;
