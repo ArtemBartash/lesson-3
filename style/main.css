@@ -78,6 +78,7 @@ h2 {
 .circle--lightning {
     background: url(../img/lightning.png) no-repeat center center;
 }
+
 /*Картинка города */
 .background-town {
     width: 1519px;
@@ -154,6 +155,11 @@ button:hover {
     margin: 48px 5px 34px;
     width: 35px;
     height: 35px; 
+}
+
+.society--pinterest {
+    width: 28px;
+    height: 26px;
 }
 
 .society--stumbleupon {
